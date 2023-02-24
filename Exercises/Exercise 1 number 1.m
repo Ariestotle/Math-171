@@ -1,5 +1,7 @@
-%%%% Name: JOSE ARIES E. DE LOS SANTOS
-%%%% Course: Math 171 THU
+%% Name: Jose Aries E. De Los Santos SN: 2021-21523
+%% Math 171 THU 
+%% Exercise 1 no. 1
+
 x3 = []; %initialize the matrix/vector
 n = 100000; % set the number of terms, set to a much larger number like 1000000
 i = 1:n; % set the iteration for the for loop from 1 to n
@@ -17,10 +19,9 @@ end
 d_double_1 = eps(double(x3(n))); %for the nth Sum term
 d_double_2 = eps(double(x3(n-1))); %for the (n-1)th Sum term
 %will print the number of terms used
-fprintf('number of terms = %.f', n)
-
+fprintf('number of terms = %.f    \n', n)
 %displays the number of terms to obtain the sum in S_result
-fprintf('The sum of the given %.f terms:', n)
+fprintf('the sum for set %.f number of terms    \n', n)
 x3(n) %display the sum of the n terms set 
 
 %displays the relative accuracy using the eps function
