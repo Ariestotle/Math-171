@@ -1,3 +1,5 @@
+%%%% Name: JOSE ARIES E. DE LOS SANTOS
+%%%% Course: Math 171 THU
 x3 = []; %initialize the matrix/vector
 n = 100000; % set the number of terms, set to a much larger number like 1000000
 i = 1:n; % set the iteration for the for loop from 1 to n
