@@ -34,7 +34,7 @@ disp(d_double_2);
 % the sum is no longer affected at the set n terms
 
 endterm = 100;
-fprintf("It can be show here that at the last %.f terms the sum is not affected by adding another term", end_term)
+fprintf("It can be show here that at the last %.f terms the sum is not affected by adding another term", endterm)
 for b=1:endterm
     x3(n-b) %displays that values for the last number of terms set at the endterm variable
 end
